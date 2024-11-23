@@ -2,8 +2,7 @@
 $host = 'localhost';
 $db = 'loja_bolos';
 $user = 'root';
-$password = '160403';
-$porta = '3307';
+$password = '';
 
 // Ativar relatório de erros detalhados do MySQLi
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
