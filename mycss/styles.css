@@ -1,0 +1,111 @@
+body {
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+    overflow: hidden;
+}
+
+img.prep {
+    width: 1000px;
+}
+
+.col-8 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button.login {
+
+    box-shadow: none;
+}
+
+form {
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+div.login {
+    background-color: white;
+    opacity: 85%;
+}
+
+form.login {
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    justify-content: center;
+}
+
+form.login input {
+    width: 150%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+}
