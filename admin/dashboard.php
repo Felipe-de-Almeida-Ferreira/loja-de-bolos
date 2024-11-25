@@ -15,7 +15,7 @@ $result = $conn->query("SELECT * FROM bolos");
 <head>
     <title>Administração - Bolos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="..\mycss\styles.css">
+    <link rel="stylesheet" href="..\css\styles.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">

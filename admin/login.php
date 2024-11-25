@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <title>Login - Administração</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="..\mycss\styles.css">
+    <link rel="stylesheet" href="..\css\styles.css">
 </head>
 <body class="row">
     <div class="col-sm-8">
