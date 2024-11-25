@@ -2,11 +2,7 @@
 $host = 'localhost';
 $db = 'loja_bolos';
 $user = 'root';
-<<<<<<< HEAD
 $password = '';
-=======
-$password = '160403';
->>>>>>> b1ece5f (criar bolo restaurado)
 
 // Ativar relatório de erros detalhados do MySQLi
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
